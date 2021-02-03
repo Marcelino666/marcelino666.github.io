@@ -366,7 +366,7 @@ img{
   margin-bottom: var(--mb-4);
 }
 .footer__icon{
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: #fff;
   margin: 0 var(--mb-2)
 }
@@ -436,11 +436,11 @@ img{
   .about__img img{
     width: 300px;
   }
-  /* .work__container{
+  .pengalaman__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
-  } */
+  }
   .contact__form{
     width: 360px;
   }
