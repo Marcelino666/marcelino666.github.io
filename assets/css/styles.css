@@ -9,7 +9,7 @@
 /*===== Colores =====*/
 :root{
   --first-color: #ffffff;
-  --second-color: #000000;
+  --second-color: #2f2f2f;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -270,11 +270,11 @@ img{
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
-.skills__icon{
+/* .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
-}
+  color: var(--second-color);
+} */
 .skills__names{
   display: flex;
   align-items: center;
@@ -294,7 +294,7 @@ img{
 .skills__java{
   width: 30%;
 }
-.skills__javasript{
+.skills__javascript{
   width: 30%;
 }
 .skills__php{
@@ -307,26 +307,38 @@ img{
 .skills__swift{
     width: 50%;
 }
+.skills__codeigniter{
+    width: 30%;
+}
+.skills__laravel{
+    width: 70%;
+}
+.skills__vuejs{
+    width: 30%;
+}
 
 .skills__bootstrap{
     width: 50%;
-  border-radius: .5rem;
 }
 
-/* ===== WORK =====*/
-.work__container{
+.skills__img{
+    border-radius: .5rem;
+}
+
+/* ===== EXPERINCE =====*/
+.experience__container{
   row-gap: 2rem;
 }
-.work__img{
+.experience__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
 }
-.work__img img{
+.experience__img img{
   transition: 1s;
   cursor: pointer;
 }
-.work__img img:hover{
+.experience__img img:hover{
   transform: scale(1.1);
 }
 
@@ -384,7 +396,7 @@ img{
     margin-bottom: var(--mb-6);
   }
   .section-title::after{
-    width: 80px;
+    width: 100px;
     top: 3rem;
   }
 
@@ -435,11 +447,11 @@ img{
   .about__img img{
     width: 300px;
   }
-  .work__container{
+  /* .experience__container{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
-  }
+  } */
   .contact__form{
     width: 360px;
   }

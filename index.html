@@ -2,16 +2,13 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- BOX ICONS -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Curriculum-Vitae</title>
   </head>
@@ -20,45 +17,45 @@
     <header class="l-header">
       <nav class="nav bd-grid">
         <div>
-          <a href="#" class="nav__logo">Marcelino</a>
+          <a href="#home" class="nav__logo">Marcelino</a>
         </div>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li class="nav__item"><a href="#" class="nav__link active">Beranda</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Tentang Saya</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Keterampilan</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Kontak</a></li>
+            <li class="nav__item"><a href="#home" class="nav__link active">Beranda</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">Tentang Saya</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Keterampilan</a></li>
+            <li class="nav__item"><a href="#experience" class="nav__link">Pengalaman</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Kontak</a></li>
           </ul>
         </div>
 
-        <div class="nav__toogle" id="nav-toggle">
+        <div class="nav__toggle" id="nav-toggle">
           <i class='bx bx-menu'></i>
         </div>
       </nav>
     </header>
 
     <main class="l-main">
+
       <!-- HOME -->
       <section class="home bd-grid" id="home">
         <div class="home__data">
-          <h1 class="home__title">Hallo, <br>Saya <span class="home__title-color">Marcelino</span><br>Seorang Mahasiswa </h1>
-          <a href="#" class="button">Kontak</a>
+          <h1 class="home__title">Halo, <br>Saya <span class="home__title-color">Marcelino</span><br>Seorang Mahasiswa </h1>
+          <!-- <a href="#" class="button">Kontak</a> -->
         </div>
-        
+
         <div class="home__social">
           <a href="https://api.whatsapp.com/send?phone=62979767067&text=Hallo,%20saya%20Marcelino%20:D" class="home__social-icon"><i class='bx bxl-whatsapp' ></i></a>
           <a href="https://github.com/Marcelino666" class="home__social-icon"><i class='bx bxl-github' ></i></a>
         </div>
-        
 
         <div class="home__img ">
-          <img src="assets/img/Background-2.jpg" alt="">
+          <img src="assets/img/DSC_0227.jpg" alt="">
         </div>
       </section>
 
-      <!-- ABOUT -->
+      <!-- Tentang saya -->
       <section class="about section" id="about">
         <h2 class="section-title">Tentang Saya</h2>
 
@@ -85,134 +82,139 @@
 
         <div class="skills__container bd-grid">
           <h2 class="skills__subtitle">Bahasa Pemprograman</h2>
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">C</span>
-            </div>
-
             <div>
-              <span class="skills__percentage">50%</span>
+              <div class="skills__data">
+                <div class="skills__names">
+                  <span class="skills__name">C</span>
+                </div>
+
+                <div>
+                  <span class="skills__percentage">50%</span>
+                </div>
+
+                <div class="skills__bar skills__c"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__names">
+                  <span class="skills__name">Java</span>
+                </div>
+
+                <div>
+                  <span class="skills__percentage">30%</span>
+                </div>
+
+                <div class="skills__bar skills__java"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__names">
+                  <!-- <i class='bx bxl-javascript skills__icon'></i> -->
+                  <span class="skills__name">JavaScript</span>
+                </div>
+
+                <div>
+                  <span class="skills__percentage">30%</span>
+                </div>
+
+                <div class="skills__bar skills__javascript"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__names">
+                  <span class="skills__name">PHP</span>
+                </div>
+
+                <div>
+                  <span class="skills__percentage">70%</span>
+                </div>
+
+                <div class="skills__bar skills__php"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__names">
+                  <span class="skills__name">SQL</span>
+                </div>
+
+                <div>
+                  <span class="skills__percentage">60%</span>
+                </div>
+
+                <div class="skills__bar skills__sql"></div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__names">
+                  <span class="skills__name">Swift</span>
+                </div>
+
+                <div>
+                  <span class="skills__percentage">50%</span>
+                </div>
+
+                <div class="skills__bar skills__swift"></div>
+              </div>
             </div>
-
-            <div class="skills__bar skills__c"></div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">Java</span>
-            </div>
-
-            <div>
-              <span class="skills__percentage">30%</span>
-            </div>
-
-            <div class="skills__bar skills__java"></div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class='bx bxl-javascript skills_icon'></i>
-              <span class="skills__name">JavaScript</span>
-            </div>
-
-            <div>
-              <span class="skills__percentage">30%</span>
-            </div>
-
-            <div class="skills__bar skills__javascript"></div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">PHP</span>
-            </div>
-
-            <div>
-              <span class="skills__percentage">70%</span>
-            </div>
-
-            <div class="skills__bar skills__php"></div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">SQL</span>
-            </div>
-
-            <div>
-              <span class="skills__percentage">60%</span>
-            </div>
-
-            <div class="skills__bar skills__sql"></div>
-          </div>
-
-          <div class="skills__data">
-            <div class="skills__names">
-              <span class="skills__name">Swift</span>
-            </div>
-
-            <div>
-              <span class="skills__percentage">50%</span>
-            </div>
-
-            <div class="skills__bar skills__swift"></div>
-          </div>
         </div>
 
+        <br>
         <br>
 
           <div class="skills__container bd-grid">
             <h2 class="skills__subtitle">Frameworks</h2>
-  
-            <div class="skills__data">
-              <div class="skills__names">
-                <span class="skills__name">CodeIgniter</span>
-              </div>
-  
               <div>
-                <span class="skills__percentage">30%</span>
-              </div>
-  
-              <div class="skills__bar skills__codeigniter"></div>
-            </div>
-  
-            <div class="skills__data">
-              <div class="skills__names">
-                <span class="skills__name">Laravel</span>
-              </div>
-  
-              <div>
-                <span class="skills__percentage">70%</span>
-              </div>
-  
-              <div class="skills__bar skills__laravel"></div>
-            </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <span class="skills__name">CodeIgniter</span>
+                  </div>
+      
+                  <div>
+                    <span class="skills__percentage">30%</span>
+                  </div>
+      
+                  <div class="skills__bar skills__codeigniter"></div>
+                </div>
+      
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <span class="skills__name">Laravel</span>
+                  </div>
+      
+                  <div>
+                    <span class="skills__percentage">70%</span>
+                  </div>
+      
+                  <div class="skills__bar skills__laravel"></div>
+                </div>
 
-            <div class="skills__data">
-              <div class="skills__names">
-                <span class="skills__name">Vue.js</span>
-              </div>
-  
-              <div>
-                <span class="skills__percentage">30%</span>
-              </div>
-  
-              <div class="skills__bar skills__vuejs"></div>
-            </div>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <span class="skills__name">Vue.js</span>
+                  </div>
+      
+                  <div>
+                    <span class="skills__percentage">30%</span>
+                  </div>
+      
+                  <div class="skills__bar skills__vuejs"></div>
+                </div>
 
-            <div class="skills__data">
-              <div class="skills__names">
-                <span class="skills__name">Bootstrap</span>
+                <div class="skills__data">
+                  <div class="skills__names">
+                    <span class="skills__name">Bootstrap</span>
+                  </div>
+      
+                  <div>
+                    <span class="skills__percentage">50%</span>
+                  </div>
+      
+                  <div class="skills__bar skills__bootstrap"></div>
+                </div>
               </div>
-  
-              <div>
-                <span class="skills__percentage">50%</span>
-              </div>
-  
-              <div class="skills__bar skills__bootstrap"></div>
-            </div>
           </div> 
 
+          <br>
           <br>
           
           <div class="skills__container bd-grid">
@@ -225,8 +227,64 @@
         </div>
       </section>
 
+      <!-- Pengalaman -->
+      <section class="experience section" id="experience">
+        <h2 class="section-title">Pengalaman</h2>
+        <div class="experience__container bd-grid">
+          <div class="experience__img">
+            <img src="assets/img/Background-3.jpg" alt="">
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">Desember 2020</h2>
+            <p class="about__text">Mengerjakan projek kecil pada mata kuliah
+              Business Intellegence and Big Data dengan
+              menggunakan SQL Server Management Studio
+              dan SQL Server Data Tools.
+              </p>
+          </div>
+          <div>
+            <h2 class="about__subtitle">Februari - Juni 2020</h2>
+            <p class="about__text">Mengerjakan projek membangun aplikasi
+              website pada matakuliah Projek Pengembangan
+              Perangkat Lunak menggunakan framework
+              Laravel pada server local bersama tim.
+              </p>
+          </div>
+          <div>
+            <h2 class="about__subtitle">Agustus - Desember 2019</h2>
+            <p class="about__text">- Mengerjakan projek membangun aplikasi
+              website pada matakuliah Pengembangan
+              Aplikasi Web menggunakan framework
+              CodeIgniter dan Vue.js bersama tim. 
+              </p>
+              <br>
+            <p class="about__text">- Mengerjakan projek membangun aplikasi
+              android menggunakan Android Studio dan
+              membangun aplikasi iOS menggunakan
+              Xcode pada matakuliah Pengembangan
+              Berbasis Platform bersama tim.
+                          
+              </p>
+          </div>
+        </div>
+      </section>
 
     </main>
+    
+    <!-- FOOTER -->
+    <img src="assets/img/Background-1.jpg" alt="">
+    <footer class="footer">
+      <p class="footer__title">Marcelino</p>
+
+      <div class="footer__social">
+        <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+        <a href="#" class="footer__icon"><i class='bx bxl-facebook-circle'></i></a>
+        <a href="#" class="footer__icon"><i class='bx bx-envelope'></i></i></a>
+      </div>
+      <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
+
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -234,40 +292,5 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 
-    <!-- <nav class="navbar fixed-stop navbar-light" style="background-color: #ffffff;">
-        <div class="container">
-          <a class="navbar-brand" href="#">ABOUT ME</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> -->
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
